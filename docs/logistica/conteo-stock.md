@@ -77,7 +77,7 @@ acceso.
 
 ## Requisitos para usar la cámara
 
-*   Desde el celular, ingresa a Odoo por la dirección habitual de tu empresa.
+Desde el celular, ingresa a Odoo por la dirección habitual de tu empresa.
 
 ## Búsquedas y filtros
 

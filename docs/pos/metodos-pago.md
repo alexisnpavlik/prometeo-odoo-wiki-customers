@@ -7,9 +7,13 @@ A continuación se detalla cómo procesar el cobro utilizando cada uno de los 16
 * ![Efectivo Caja 2](../assets/iconos/efectivo_c2.jpg) **Efectivo Caja 2** (Para operaciones en la caja secundaria)
 * **Procedimiento**:
   1. Selecciona el botón **Efectivo** (o **Efectivo C2** si trabajas en la segunda caja).
-  2. Digita el monto en efectivo entregado por el cliente usando el teclado numérico.
-  3. El sistema calculará el vuelto a entregar en la esquina superior derecha (*Vuelto*).
-  4. Presiona **Validar** para emitir el ticket fiscal y abrir el cajón físico.
+  2. Digita el monto en efectivo entregado por el cliente usando el teclado numérico. Es el
+     **importe que te entrega la persona**, no el total de la venta: si la compra es de $18.000 y el
+     cliente paga con $20.000, se carga **20000**.
+  3. El sistema calculará el vuelto a entregar en la esquina superior derecha (*Vuelto*). En el
+     ejemplo anterior, $2.000.
+  4. Presiona **Validar** para emitir el ticket fiscal y abrir el cajón físico. Se imprime el
+     comprobante para el cliente.
 
 ---
 
@@ -30,10 +34,27 @@ A continuación se detalla cómo procesar el cobro utilizando cada uno de los 16
 * ![Tarjeta Naranja](../assets/iconos/tarjeta_naranja.jpg) **Tarjeta Naranja**
 * ![Tarjeta Tuya](../assets/iconos/tarjeta_tuya.jpg) **Tarjeta Tuya (Banco del Chaco)**
 * **Procedimiento**:
-  1. Selecciona el botón de la tarjeta específica según la marca del plástico del cliente.
-  2. Procesa el pago en el Posnet físico seleccionando las cuotas correspondientes (Plan Z, 1 pago, o cuotas fijas).
-  3. Registra en el campo de entrada de texto de Odoo el **Número de cupón** y el **Monto con recargo** de ser necesario.
-  4. Presiona **Validar** para consolidar el ticket.
+  1. Presiona **Pagar** y selecciona el botón de la tarjeta específica según la marca del plástico
+     del cliente.
+  2. **Seleccionar el plan de cuotas:** al elegir una tarjeta de crédito, Odoo detecta que tiene
+     planes de cuotas disponibles. Presiona el botón **Cuotas** (ícono de tarjeta, en el panel de
+     botones de la pantalla de pago). Se abre la ventana *Cuotas* con la lista de planes; cada
+     opción muestra el **Importe** final y el **Cargo** (recargo financiero) que corresponde.
+     Marca el plan que el cliente eligió y presiona **Ok**.
+  3. **Confirmación visual:** en la esquina inferior derecha de la pantalla de pago hay un cartel
+     **PLAN DE CUOTAS**. Mientras diga *Sin seleccionar* (en amarillo) todavía no elegiste plan;
+     una vez seleccionado pasa a verde e indica la cantidad de cuotas. Si el plan tiene recargo,
+     se agrega automáticamente a la venta como una línea adicional.
+  4. **Procesar en el Posnet:** pasa la tarjeta y realiza la transacción en la terminal física con
+     el mismo plan de cuotas que seleccionaste en Odoo.
+  5. **Registrar la referencia:** en el campo **Referencia de pago** escribe los últimos números
+     del comprobante o de la transacción del Posnet, como control para el arqueo.
+  6. Verifica en la pantalla principal que figure el plan de cuotas seleccionado y presiona
+     **Validar** para consolidar el ticket.
+
+> **Importante:** el recargo que cobra Odoo sale del plan que seleccionaste en la ventana *Cuotas*.
+> Si en la terminal física procesas un plan distinto, el importe cobrado al cliente no coincidirá
+> con el registrado en el sistema.
 
 ---
 

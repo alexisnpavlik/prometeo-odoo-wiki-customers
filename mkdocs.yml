@@ -2,6 +2,32 @@ site_name: Documentación Prometeo Odoo
 theme:
   name: material
   language: es
+  logo: assets/prometeo-mark.svg
+  favicon: assets/prometeo-mark.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Inicio: index.md

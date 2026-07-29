@@ -42,6 +42,7 @@ nav:
     - Introducción: finanzas/index.md
     - Facturación Electrónica (AFIP): finanzas/facturacion-afip.md
     - Tesorería, Cheques y Transferencias: finanzas/tesoreria.md
+    - Cuenta Corriente de Clientes (Fiado): finanzas/cuenta-corriente.md
   - Logística e Inventario:
     - Introducción: logistica/index.md
     - Enviar Mercadería al Depósito: logistica/remitos-salida.md

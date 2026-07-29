@@ -7,5 +7,6 @@ En esta sección aprenderás a gestionar:
 *   Emisión de recibos y cobros.
 *   Manejo de cheques de terceros y propios.
 *   Transferencias entre bancos internos.
+*   Cuenta corriente de clientes para entregas a fiado.
 
 Navega por las subsecciones para ver las instrucciones detalladas de cada proceso.

@@ -1,0 +1,22 @@
+site_name: Documentación Prometeo Odoo
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Punto de Venta (POS):
+    - Introducción: pos/index.md
+    - Uso de Caja y Solo Lectura: pos/solo-lectura.md
+    - Aprobaciones de Supervisores: pos/aprobaciones.md
+  - Finanzas y Contabilidad:
+    - Introducción: finanzas/index.md
+    - Facturación Electrónica (AFIP): finanzas/facturacion-afip.md
+    - Tesorería, Cheques y Transferencias: finanzas/tesoreria.md
+  - Logística e Inventario:
+    - Introducción: logistica/index.md
+    - Automatización de Costos: logistica/costos.md
+    - Operaciones Inter-Compañía: logistica/intercompany.md
+  - Sistema y Configuración:
+    - Uso Multi-Compañía: sistema/multi-company.md
+

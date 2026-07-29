@@ -77,13 +77,7 @@ acceso.
 
 ## Requisitos para usar la cámara
 
-El botón **Escanear producto** solo aparece si el navegador puede acceder a la cámara. Los
-navegadores solo permiten usarla en sitios seguros (**https://**), por lo que:
-
-*   Desde el celular, ingresa a Odoo por la dirección **https://** habitual de tu empresa.
-*   Si accedes por una dirección IP local (`http://192.168...`), el botón de cámara **no se muestra**.
-    En ese caso puedes seguir usando el campo manual de código de barras o un lector láser.
-*   La primera vez el navegador te pedirá permiso para usar la cámara: hay que aceptarlo.
+*   Desde el celular, ingresa a Odoo por la dirección habitual de tu empresa.
 
 ## Búsquedas y filtros
 

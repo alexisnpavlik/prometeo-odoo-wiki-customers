@@ -48,6 +48,7 @@ nav:
     - Enviar Mercadería al Depósito: logistica/remitos-salida.md
     - Recibir Mercadería del Depósito: logistica/remitos-entrada.md
     - Consultar Entregas y Filtros: logistica/busqueda-entregas.md
+    - Conteo de Stock por Código de Barras: logistica/conteo-stock.md
     - Automatización de Costos: logistica/costos.md
     - Operaciones Inter-Compañía: logistica/intercompany.md
   - Sistema y Configuración:

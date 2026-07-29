@@ -1,0 +1,2 @@
+Guarda en esta carpeta las capturas de pantalla correspondientes al proceso de Entregas (Remitos de Salida) del Módulo de Inventario en Odoo.
+Estructura: Inventario -> Operaciones -> Entregas

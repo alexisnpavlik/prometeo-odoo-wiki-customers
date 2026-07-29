@@ -1,0 +1,2 @@
+Guarda en esta carpeta las capturas de pantalla correspondientes al proceso de Recibir mercadería (IN) (Remitos de Entrada) del Módulo de Inventario en Odoo.
+Estructura: Inventario -> Operaciones -> Recibir mercadería (IN)

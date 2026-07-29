@@ -1,0 +1,2 @@
+Guarda en esta carpeta las capturas de pantalla correspondientes al Módulo de Punto de Venta (POS) en Odoo, como la apertura/cierre de caja y transacciones.
+Estructura: Punto de Venta
